@@ -1,41 +1,74 @@
-body {
-    font-family: Arial, sans-serif;
+/*
+  CSS reset
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
     margin: 0;
-    padding: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /*
+    Blog styles
+  */
+  body {
+    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-}
-
-header {
-    background-color: #0046be; /* Best Buy blue */
+  }
+  
+  header {
+    background-color: #0046be;
     height: 60px;
     color: #fff;
     display: flex;
     align-items: center;
     padding-left: 20px;
-}
-
-h1, h2 {
-    color: #0046be; /* Best Buy blue */
-}
-
-h3 {
-    color: #FEDD00; /* Best Buy yellow */
-}
-
-nav a {
-    color: #0046be; /* Best Buy blue */
+  }
+  
+  h1, h2 {
+    color: #0046be;
+  }
+  
+  h3 {
+    color: #FEDD00;
+  }
+  
+  nav a {
+    color: #0046be;
     text-decoration: none;
     margin: 0 10px;
-}
-
-nav a:hover {
-    color: #FEDD00; /* Best Buy yellow */
-}
-
-main {
+  }
+  
+  nav a:hover {
+    color: #FEDD00;
+  }
+  
+  main {
     padding: 20px;
-}
-
-strong {
-    color: #0046be; /* Best Buy blue */
-}
+  }
+  
+  strong {
+    color: #0046be;
+  }
+  
+  .article-title {
+    padding: 20px;
+    border: 2px solid #0046be;
+    margin-bottom: 20px;
+    background-color: #FEDD00;
+  }
+  
