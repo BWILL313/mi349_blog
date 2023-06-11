@@ -1,74 +1,38 @@
-/*
-  CSS reset
-*/
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  * {
-    margin: 0;
-  }
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  input, button, textarea, select {
-    font: inherit;
-  }
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  
-  /*
-    Blog styles
-  */
-  body {
+body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
   }
   
   header {
-    background-color: #0046be;
-    height: 60px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+    background-color: #003087;
+    color: white;
+    padding: 20px;
+    text-align: center;
   }
   
-  h1, h2 {
-    color: #0046be;
-  }
-  
-  h3 {
-    color: #FEDD00;
+  nav {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #C0C0C0;
   }
   
   nav a {
-    color: #0046be;
+    margin: 0 15px;
     text-decoration: none;
-    margin: 0 10px;
-  }
-  
-  nav a:hover {
-    color: #FEDD00;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  strong {
-    color: #0046be;
+    color: #003087;
   }
   
   .article-title {
+    background-color: #fff;
     padding: 20px;
-    border: 2px solid #0046be;
+    border: 2px solid #C0C0C0;
     margin-bottom: 20px;
-    background-color: #FEDD00;
+  }
+  
+  article {
+    padding: 0 20px 20px;
   }
   
