@@ -5,6 +5,37 @@ body {
     background-color: #f0f0f0;
 }
 
-h1 {
-    color: #333;
+header {
+    background-color: #0046be; /* Best Buy blue */
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+h1, h2 {
+    color: #0046be; /* Best Buy blue */
+}
+
+h3 {
+    color: #FEDD00; /* Best Buy yellow */
+}
+
+nav a {
+    color: #0046be; /* Best Buy blue */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #FEDD00; /* Best Buy yellow */
+}
+
+main {
+    padding: 20px;
+}
+
+strong {
+    color: #0046be; /* Best Buy blue */
 }
