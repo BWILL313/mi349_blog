@@ -10,18 +10,27 @@
         <h1>Flutter Fly</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a>
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="index.html">Home</a>
     </nav>
     <main>
-        <div class="article-title">
-            <h2>Contact Flutter Fly</h2>
-        </div>
-        <article>
-            <h3>Get in Touch</h3>
-            <p>If you have any questions, feedback, or inquiries, feel free to reach out to us. We're here to assist you on your photography journey.</p>
-            <p>Contact Email: <a href="mailto:flutterfly@photo.com">flutterfly@photo.com</a></p>
-        </article>
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="reason">Reason for Contact:</label><br>
+            <select id="reason" name="reason">
+                <option value="saying_hi">Saying Hi</option>
+                <option value="looking_for_contractor">Looking for a Contractor</option>
+                <option value="interested_in_interview">Interested in an Interview</option>
+            </select><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
     </main>
 </body>
 </html>
