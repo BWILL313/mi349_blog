@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>The Latest in Canon Photography Gear</title>
-    <link rel="stylesheet" type="text/css" href="screen.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <!-- Your HTML content here -->
-</body>
-</html>
+// JavaScript code goes here
+// You can add your own custom JavaScript code to manipulate the page behavior
+
+// Example code to log a message to the console
+console.log("Hello, JavaScript!");
+
+// Example code to change the background color of the body
+document.body.style.backgroundColor = "#F6F6F6";
